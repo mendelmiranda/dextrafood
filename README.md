@@ -2,7 +2,7 @@
 Projeto Demo
 
 1. Instalação 
-1. Clone this repository
+1. Clone o repositório:
 1. git clone https://github.com/mendelmiranda/dextrafood.git
 1. Entre na pasta do projeto
 1. cd dextrafood
