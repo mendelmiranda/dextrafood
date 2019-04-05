@@ -49,20 +49,9 @@ public class Cardapio {
         lanchesDoCardapio.add(xBacon);
         lanchesDoCardapio.add(xBurguer);
         lanchesDoCardapio.add(xEgg);
-        lanchesDoCardapio.add(xEggBacon);
-                
-        //double total = calcula(lanchesDoCardapio);        
-        
+        lanchesDoCardapio.add(xEggBacon);        
         
         return lanchesDoCardapio;      
-    }
-    
-    public static double calculaIngredientes(List<Lanche> lanches){
-        return lanches.stream().mapToDouble(Lanche::getValorDoLanche).sum();
-    }
-    
-    public static double calcula(List<Lanche> lanches){
-        return lanches.stream().mapToDouble(Lanche::getValorDoLanche).sum();
     }
     
     public List<Ingrediente> listaDeIngredientes(){
